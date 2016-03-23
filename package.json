@@ -11,6 +11,10 @@
 		"gulp-uglify": "^1.5.1",
 		"gulp-plumber": "",
 		"gulp-notify": "",
-		"gulp-util": "*"
+		"gulp-util": "*",
+
+		"node-sass": "^3.3.0",
+		"bourbon": "^4.2.6",
+		"gulp-sass": "^2.1.1"
 	}
 }

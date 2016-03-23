@@ -1,0 +1,11 @@
+{
+	"name": "package-mng",
+	"version": "0.0.1",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"node-sass": "^3.3.0",
+		"bourbon": "^4.2.6",
+		"gulp-sass": "^2.1.1"
+	}
+}
