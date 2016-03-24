@@ -42,4 +42,34 @@ gulp
 * gulp 사용법에 대해서는 구글에 검색해보시길 권장 드립니다.
 
 
+## bower 사용
+`static` 폴더안에 `.bowerrc`와 `bower.json` 파일이 있습니다.
+하나는 플러그인이 다운로드될 위치를 지정하는 용도 이고, 다른 하나는 관리할 플러그인 목록을 정의하는 파일입니다.
 
+**`.bowerrc`**
+```json
+{
+	"directory": "plugins",
+	"analytics": false,
+	"timeout": 120000
+}
+```
+
+**`bower.json`**
+```json
+{
+	"name": "plugins",
+	"dependencies": {
+		"jquery": "^1.11.0",
+		"bootstrap": "^3.3.6",
+		"font-awesome": ""
+	}
+}
+```
+
+bower로 관리 하고 싶은 플러그인 이름을 `bower.json`에 넣어주신다음
+
+```
+cd static
+bower install
+```
